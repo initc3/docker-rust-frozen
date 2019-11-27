@@ -1,10 +1,17 @@
-Find it on the [Docker Hub](https://hub.docker.com/r/rustlang/rust/).
+**WARNING**: **This is NOT the official docker-rust-nightly repository!** 
 
-For typical use cases, see the [official image](https://hub.docker.com/_/rust/).
+**The official repository is at https://github.com/rust-lang/docker-rust-nightly.
 
-This image has two tags, `nightly` and `nightly-slim`, which are updated every
-day to match the current Rust nightly.  The `nightly` tag is configured
-identically to that of the `latest` tag of the official image, except that the
-nightly toolchain is selected via rustup.  The `nightly-slim` tag is configured
-identically to that of the `slim` tag of the official image, except that the
-nightly toolchain is selected via rustup.
+---
+
+This repository serves the purpose of having some nightly builds "from the past",
+frozen in time. If you know of a better way to achieve this please let us know!
+
+The images for the "frozen" nightly builds can be found on
+[Docker Hub](https://hub.docker.com/repository/docker/sbellem/rust).
+
+This image has two types of tags, `<YYYY.MM.DD>` and `<YYYY.MM.DD>-slim`, which
+match the nightly build corresponding to `<YYYY.MM.DD>`.
+
+For the latest nightly and more information on rust nightly images see
+https://github.com/rust-lang/docker-rust-nightly.
