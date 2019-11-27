@@ -1,6 +1,6 @@
 **WARNING**: **This is NOT the official docker-rust-nightly repository!** 
 
-**The official repository is at https://github.com/rust-lang/docker-rust-nightly.
+**The official repository is at https://github.com/rust-lang/docker-rust-nightly.**
 
 ---
 
