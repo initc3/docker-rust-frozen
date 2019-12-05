@@ -10,8 +10,13 @@ frozen in time. If you know of a better way to achieve this please let us know!
 The images for the "frozen" nightly builds can be found on
 [Docker Hub](https://hub.docker.com/repository/docker/initc3/rust-frozen).
 
-This image has two types of tags, `<YYYY.MM.DD>` and `<YYYY.MM.DD>-slim`, which
-match the nightly build corresponding to `<YYYY.MM.DD>`.
+This image has three types of tags:
+
+* `<YYYY.MM.DD>-buster`
+* `<YYYY.MM.DD>-slim-buster`
+* `<YYYY.MM.DD>-alpine3.10`
+
+matching the nightly build corresponding to `<YYYY.MM.DD>`.
 
 ## Supported tags and respective Dockerfile links
 * [2019.11.21-buster](https://github.com/initc3/docker-rust-frozen/blob/master/2019.11.21/buster/Dockerfile)
