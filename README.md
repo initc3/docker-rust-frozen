@@ -14,6 +14,6 @@ This image has two types of tags, `<YYYY.MM.DD>` and `<YYYY.MM.DD>-slim`, which
 match the nightly build corresponding to `<YYYY.MM.DD>`.
 
 ## Supported tags and respective Dockerfile links
-* [2019.11.21-slim-buster](2019.11.21/buster/slim/Dockerfile)
-* [2019.11.21-buster](2019.11.21/buster/Dockerfile)
-* [2019.11.21-alpine3.10](2019.11.21/alpine3.10/Dockerfile)
+* [2019.11.21-buster](https://github.com/initc3/docker-rust-frozen/blob/master/2019.11.21/buster/Dockerfile)
+* [2019.11.21-slim-buster](https://github.com/initc3/docker-rust-frozen/blob/master/2019.11.21/buster/slim/Dockerfile)
+* [2019.11.21-alpine3.10](https://github.com/initc3/docker-rust-frozen/blob/master/2019.11.21/alpine3.10/Dockerfile)
