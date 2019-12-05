@@ -2,7 +2,12 @@ sudo: required
 services:
 - docker
 
-script:
-- docker build 2019.11.21/buster
-- docker build 2019.11.21/buster/slim
-- docker build 2019.11.21/alpine3.10
+jobs:
+  include:
+    - stage: Build images
+      name: 2019.11.21-buster
+      script: docker build 2019.11.21/buster
+    - name: 2019.11.21-slim-buster
+      script: docker build 2019.11.21/buster/slim
+    - name: 2019.11.21-alpine3.10
+      script: docker build 2019.11.21/alpine3.10
