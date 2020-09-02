@@ -22,3 +22,6 @@ matching the nightly build corresponding to `<YYYY.MM.DD>`.
 * [2019.11.21-buster](https://github.com/initc3/docker-rust-frozen/blob/master/2019.11.21/buster/Dockerfile)
 * [2019.11.21-slim-buster](https://github.com/initc3/docker-rust-frozen/blob/master/2019.11.21/buster/slim/Dockerfile)
 * [2019.11.21-alpine3.10](https://github.com/initc3/docker-rust-frozen/blob/master/2019.11.21/alpine3.10/Dockerfile)
+* [2020.08.01-buster](https://github.com/initc3/docker-rust-frozen/blob/master/2020.08.01/buster/Dockerfile)
+* [2020.08.01-slim-buster](https://github.com/initc3/docker-rust-frozen/blob/master/2020.08.01/buster/slim/Dockerfile)
+* [2020.08.01-alpine3.10](https://github.com/initc3/docker-rust-frozen/blob/master/2020.08.01/alpine3.10/Dockerfile)
