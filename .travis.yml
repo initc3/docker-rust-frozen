@@ -11,3 +11,10 @@ jobs:
       script: docker build 2019.11.21/buster/slim
     - name: 2019.11.21-alpine3.10
       script: docker build 2019.11.21/alpine3.10
+    - stage: Build images
+      name: 2020.08.01-buster
+      script: docker build 2020.08.01/buster
+    - name: 2020.08.01-slim-buster
+      script: docker build 2020.08.01/buster/slim
+    - name: 2020.08.01-alpine3.10
+      script: docker build 2020.08.01/alpine3.10
